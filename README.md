@@ -2,7 +2,7 @@
 
 A complete full-stack smart agriculture system integrating Arduino hardware, MERN stack web application, and AI-based crop disease detection.
 
-## 🚀 Features
+## Features
 
 - **Real-time Farm Monitoring**: Live dashboard showing soil moisture, temperature, and humidity.
 - **Smart Irrigation**: Automated pump control based on soil moisture thresholds.
@@ -10,14 +10,14 @@ A complete full-stack smart agriculture system integrating Arduino hardware, MER
 - **Interactive Analytics**: Historical trend charts for environmental data.
 - **Alert System**: Immediate notifications for critical soil conditions.
 
-## 📂 Project Structure
+## Project Structure
 
 - `hardware/`: Arduino `.ino` file for sensor integration and pump control.
 - `backend/`: Node.js Express server with MongoDB integration.
 - `frontend/`: React-based dashboard with premium UI.
 - `ai-model/`: Python scripts for model training and Flask API for predictions.
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Hardware Setup (Arduino Uno)
 - **Soil Moisture Sensor**: Connect to A0.
@@ -44,10 +44,8 @@ A complete full-stack smart agriculture system integrating Arduino hardware, MER
 3. Start the application: `npm run dev`.
 4. Open `http://localhost:5173` in your browser.
 
-## 📱 How to Use
+## How to Use
 1. **Dashboard**: View live sensor telemetry from your Arduino (or simulation).
 2. **Irrigation**: Set your moisture threshold; the pump will activate automatically.
 3. **Crop Health**: Click "Take Photo" or "Upload" to analyze a plant leaf. The AI will provide a status, confidence score, and care suggestion.
 
-## 📝 License
-MIT License
